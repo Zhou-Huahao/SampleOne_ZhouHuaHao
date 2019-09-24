@@ -1,19 +1,16 @@
 
 public class Myuser {
-    String userName;
-    String userPassword;
- public Myuser(){
+    public static final int END = Integer.MAX_VALUE;
+    public static final int START = END - 100;
 
-}
-public Myuser(String name,String password){
-     userName=name;
-     userPassword=password;
+    public static void main(String[] args) {
 
-}
-public void showInfo(){
-    System.out.println("userName="+userName);
-    System.out.println("userPassword"+userPassword);
 
-}
+        int count = 0;
+        for (int i = START; i <= END; i++) {
+            count++;
+        }
+        System.out.println(count);
+    }
 
 }

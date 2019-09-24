@@ -1,8 +1,8 @@
 package com.shuangtixi.deptwo.one;
 
  class Vrhicles{
-    private String brand;
-    private String color;
+    public String brand;
+    public String color;
     public void run(){
         System.out.println("我已经开动了");
     }
