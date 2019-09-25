@@ -13,7 +13,4 @@ public class Pyramids {
                 System.out.printf("*");//一行结束，换行
             System.out.printf("\n");
         }
-    }
-
-
-}
+    }}
